@@ -1,0 +1,54 @@
+/* Header Styles */
+.header {
+    background-color: #495E57; /* Mediterranean inspired color */
+    color: #EDEFEE; /* Light text color for contrast */
+    padding: 40px 10%;
+    text-align: center;
+  }
+  
+  .header-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #F4CE14; /* Highlight color for the title */
+    margin-bottom: 20px;
+  }
+
+  .header-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Highlight color for the title */
+    margin-bottom: 20px;
+  }
+  
+  .reserve-button {
+    background-color: #F4CE14; /* Button color matching header */
+    color: #000; /* Text color of the button */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .reserve-button:hover {
+    background-color: #333; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 30px 5%;
+    }
+  
+    .header-content h1 {
+      font-size: 35px; /* Adjust header size for smaller screens */
+    }
+  
+    .reserve-button {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }
+  

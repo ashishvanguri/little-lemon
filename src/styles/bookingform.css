@@ -1,0 +1,30 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff9800;
+  }
+  
+  /* Background color and container adjustments */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4CE14;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .App-header {
+    background-color: #F4CE14;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
